@@ -1,4 +1,5 @@
 {
+  "contextFileName": "CLAUDE.md",
   "mcpServers": {
     "github": {
       "command": "docker",
