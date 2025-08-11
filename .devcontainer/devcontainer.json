@@ -13,5 +13,5 @@
       ]
     }
   },
-  "postCreateCommand": "bash .devcontainer/install.sh"
+  "postCreateCommand": "bash .devcontainer/initialize.sh"
 }

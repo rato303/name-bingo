@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "docker",
+      "args": [
+        "run", "--rm", "-i",
+        "-e", "GITHUB_PERSONAL_ACCESS_TOKEN=${PERSONAL_ACCESS_TOKEN_FOR_GITHUB}",
+        "mcp/github-mcp-server"
+      ],
+      "trust": true
+    }
+  }
+}
